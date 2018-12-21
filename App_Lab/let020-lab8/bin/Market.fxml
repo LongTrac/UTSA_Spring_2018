@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.controller.MarketController">
+   <children>
+      <Pane prefHeight="600.0" prefWidth="800.0">
+         <children>
+            <Label layoutX="289.0" layoutY="14.0" text="MARKET" textFill="#5659ff">
+               <font>
+                  <Font name="Curlz MT" size="60.0" />
+               </font>
+            </Label>
+            <Button layoutX="43.0" layoutY="139.0" mnemonicParsing="false" onAction="#handle" prefHeight="75.0" prefWidth="220.0" style="-fx-background-color: #fcf1d9; -fx-border-color: #000000;" text="Apple: $0.89">
+               <font>
+                  <Font name="Comic Sans MS" size="20.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Button layoutX="295.0" layoutY="139.0" mnemonicParsing="false" onAction="#handle" prefHeight="75.0" prefWidth="220.0" style="-fx-background-color: #fcf1d9; -fx-border-color: #000000;" text="Banana: $0.27">
+               <font>
+                  <Font name="Comic Sans MS" size="20.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Button layoutX="536.0" layoutY="139.0" mnemonicParsing="false" onAction="#handle" prefHeight="75.0" prefWidth="220.0" style="-fx-background-color: #fcf1d9; -fx-border-color: #000000;" text="Carrot: $0.89">
+               <font>
+                  <Font name="Comic Sans MS" size="20.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Button layoutX="536.0" layoutY="220.0" mnemonicParsing="false" onAction="#handle" prefHeight="75.0" prefWidth="220.0" style="-fx-background-color: #fcf1d9; -fx-border-color: #000000;" text="Fennel: $1.49">
+               <font>
+                  <Font name="Comic Sans MS" size="20.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Button layoutX="295.0" layoutY="220.0" mnemonicParsing="false" onAction="#handle" prefHeight="75.0" prefWidth="220.0" style="-fx-background-color: #fcf1d9; -fx-border-color: #000000;" text="Eggplant: $2.69">
+               <font>
+                  <Font name="Comic Sans MS" size="20.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Button layoutX="43.0" layoutY="220.0" mnemonicParsing="false" onAction="#handle" prefHeight="75.0" prefWidth="220.0" style="-fx-background-color: #fcf1d9; -fx-border-color: #000000;" text="Dog Food: $7.29">
+               <font>
+                  <Font name="Comic Sans MS" size="20.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Button layoutX="536.0" layoutY="303.0" mnemonicParsing="false" onAction="#handle" prefHeight="75.0" prefWidth="220.0" style="-fx-background-color: #fcf1d9; -fx-border-color: #000000;" text="Ice: $0.50">
+               <font>
+                  <Font name="Comic Sans MS" size="20.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Button layoutX="295.0" layoutY="303.0" mnemonicParsing="false" onAction="#handle" prefHeight="75.0" prefWidth="220.0" style="-fx-background-color: #fcf1d9; -fx-border-color: #000000;" text="Horseraddish: $0.59">
+               <font>
+                  <Font name="Comic Sans MS" size="19.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Button layoutX="43.0" layoutY="303.0" mnemonicParsing="false" onAction="#handle" prefHeight="75.0" prefWidth="220.0" style="-fx-background-color: #fcf1d9; -fx-border-color: #000000;" text="Grapes: $3.99">
+               <font>
+                  <Font name="Comic Sans MS" size="20.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Button layoutX="537.0" layoutY="386.0" mnemonicParsing="false" onAction="#handle" prefHeight="75.0" prefWidth="220.0" style="-fx-background-color: #fcf1d9; -fx-border-color: #000000;" text="Lemon: $0.16">
+               <font>
+                  <Font name="Comic Sans MS" size="20.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Button layoutX="296.0" layoutY="386.0" mnemonicParsing="false" onAction="#handle" prefHeight="75.0" prefWidth="220.0" style="-fx-background-color: #fcf1d9; -fx-border-color: #000000;" text="Kale: $1.23">
+               <font>
+                  <Font name="Comic Sans MS" size="20.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Button layoutX="44.0" layoutY="386.0" mnemonicParsing="false" onAction="#handle" prefHeight="75.0" prefWidth="220.0" style="-fx-background-color: #fcf1d9; -fx-border-color: #000000;" text="Juice: $2.39">
+               <font>
+                  <Font name="Comic Sans MS" size="20.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Button layoutX="304.0" layoutY="502.0" mnemonicParsing="false" onAction="#viewCartHandle" style="-fx-background-color: #00b6ff;" text="VIEW MY CART">
+               <font>
+                  <Font name="System Bold Italic" size="24.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

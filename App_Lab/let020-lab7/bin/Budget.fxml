@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.controller.BudgetController">
+   <children>
+      <Pane prefHeight="500.0" prefWidth="600.0">
+         <children>
+            <Button layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#handle" text="Home" />
+            <Label layoutX="109.0" layoutY="45.0" text="Budget Overview" textFill="#11a8ff">
+               <font>
+                  <Font name="Cambria" size="52.0" />
+               </font>
+            </Label>
+            <PieChart fx:id="pChart" layoutX="50.0" layoutY="86.0" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

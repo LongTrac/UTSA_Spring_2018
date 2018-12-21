@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="650.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.controller.LoginController">
+   <children>
+      <TextField fx:id="uName" layoutX="277.0" layoutY="211.0" prefHeight="32.0" prefWidth="252.0" />
+      <PasswordField fx:id="pass" layoutX="277.0" layoutY="247.0" prefHeight="32.0" prefWidth="252.0" />
+      <Label layoutX="130.0" layoutY="216.0" prefHeight="32.0" prefWidth="147.0" text="Username:">
+         <font>
+            <Font name="Forte" size="22.0" />
+         </font>
+      </Label>
+      <Label layoutX="130.0" layoutY="255.0" prefHeight="32.0" prefWidth="147.0" text="Password: ">
+         <font>
+            <Font name="Forte" size="22.0" />
+         </font>
+      </Label>
+      <Label layoutX="194.0" layoutY="106.0" prefHeight="76.0" prefWidth="339.0" text="Family  Recipes" textAlignment="CENTER">
+         <font>
+            <Font name="Forte" size="40.0" />
+         </font>
+      </Label>
+      <Label layoutX="24.0" layoutY="30.0" prefHeight="76.0" prefWidth="339.0" text="TOP SECRET" textFill="#800c0c" textOverrun="WORD_ELLIPSIS">
+         <font>
+            <Font name="Castellar" size="40.0" />
+         </font>
+      </Label>
+      <Button layoutX="268.0" layoutY="319.0" mnemonicParsing="false" onAction="#handle" prefHeight="32.0" prefWidth="115.0" text="Log In">
+         <font>
+            <Font name="Century" size="22.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="OPEN_HAND" />
+         </cursor>
+      </Button>
+   </children>
+</AnchorPane>

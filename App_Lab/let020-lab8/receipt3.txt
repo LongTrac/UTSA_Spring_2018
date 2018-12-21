@@ -1,0 +1,8 @@
+Horseraddish,14,8.26
+Kale,15,18.45
+Ice,3,1.50
+Eggplant,6,16.14
+Fennel,8,11.92
+Carrot,7,6.23
+Banana,6,1.62
+TOTAL,59,64.12

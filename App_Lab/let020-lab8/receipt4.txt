@@ -1,0 +1,7 @@
+Horseraddish,5,2.95
+Kale,15,18.45
+Eggplant,17,45.73
+Fennel,7,10.43
+Grapes,21,83.79
+Dog Food,6,43.74
+TOTAL,71,205.09

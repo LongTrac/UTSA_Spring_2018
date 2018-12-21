@@ -1,0 +1,5 @@
+Cedric Diggory,Hufflepuff
+Lee Jordan,Gryffindor
+Terence Higgs,Slytherin
+Duncan Inglebee,Ravenclaw
+Zacharias Smith,Hufflepuff

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.shape.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="600.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.controller.MainController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#fcfcfc" height="71.0" layoutX="158.0" layoutY="300.0" stroke="BLACK" strokeType="INSIDE" width="285.0" />
+      <RadioButton fx:id="cardio" layoutX="171.0" layoutY="305.0" mnemonicParsing="false" prefHeight="61.0" prefWidth="130.0" text="Cardio" textFill="#0cf54d">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </RadioButton>
+      <RadioButton fx:id="strength" layoutX="320.0" layoutY="305.0" mnemonicParsing="false" prefHeight="61.0" prefWidth="113.0" text="Strength" textFill="#cc1414">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </RadioButton>
+      <Label layoutX="96.0" layoutY="124.0" prefHeight="133.0" prefWidth="449.0" text="My Fitness App" textFill="#1409e3">
+         <font>
+            <Font name="Freestyle Script" size="96.0" />
+         </font>
+      </Label>
+      <Button fx:id="start" layoutX="158.0" layoutY="431.0" mnemonicParsing="false" onAction="#handle" prefHeight="65.0" prefWidth="285.0" style="-fx-background-color: gold;" text="Start Work Out" textFill="#2f2b2b">
+         <font>
+            <Font name="Forte" size="36.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

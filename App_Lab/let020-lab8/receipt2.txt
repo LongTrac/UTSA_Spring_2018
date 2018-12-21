@@ -1,0 +1,3 @@
+Dog Food,10,72.90
+Eggplant,11,29.59
+TOTAL,21,102.49

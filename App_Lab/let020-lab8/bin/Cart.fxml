@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.controller.CartController">
+   <children>
+      <Pane prefHeight="600.0" prefWidth="800.0">
+         <children>
+            <Label layoutX="279.0" layoutY="-4.0" text="MY CART" textFill="#5659ff">
+               <font>
+                  <Font name="Curlz MT" size="60.0" />
+               </font>
+            </Label>
+            <Button layoutX="41.0" layoutY="535.0" mnemonicParsing="false" onAction="#goMarket" prefWidth="300.0" style="-fx-background-color: #00b6ff;" text="RETURN TO MARKET">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <font>
+                  <Font name="System Bold Italic" size="24.0" />
+               </font>
+            </Button>
+            <Button layoutX="462.0" layoutY="535.0" mnemonicParsing="false" onAction="#goConfirm" prefWidth="300.0" style="-fx-background-color: #00ff37;" text="CHECK OUT">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <font>
+                  <Font name="System Bold Italic" size="24.0" />
+               </font>
+            </Button>
+            <TableView fx:id="table" layoutX="102.0" layoutY="86.0" prefHeight="371.0" prefWidth="600.0">
+              <columns>
+                <TableColumn fx:id="iName" prefWidth="222.0" text="Item" />
+                <TableColumn fx:id="iQuantity" prefWidth="139.0" text="Quantity" />
+                  <TableColumn fx:id="iPrice" prefWidth="238.0" text="Total Cost" />
+              </columns>
+            </TableView>
+            <Text layoutX="400.0" layoutY="505.0" strokeType="OUTSIDE" strokeWidth="0.0" text="TOTAL:" wrappingWidth="94.33935546875">
+               <font>
+                  <Font size="26.0" />
+               </font>
+            </Text>
+            <Text fx:id="totalAmount" layoutX="498.0" layoutY="504.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" wrappingWidth="227.33935546875">
+               <font>
+                  <Font name="System Bold" size="26.0" />
+               </font>
+            </Text>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

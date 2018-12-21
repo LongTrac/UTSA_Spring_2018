@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8">
+   <children>
+      <Pane layoutX="-2.0" layoutY="-2.0" prefHeight="400.0" prefWidth="650.0">
+         <children>
+            <Label layoutX="54.0" layoutY="34.0" text="Grandma's Christmas Cookies">
+               <font>
+                  <Font name="Bodoni MT Black" size="29.0" />
+               </font>
+            </Label>
+            <Label layoutX="79.0" layoutY="84.0" prefHeight="25.0" prefWidth="86.0" text="Ingredients:">
+               <font>
+                  <Font name="Bernard MT Condensed" size="17.0" />
+               </font>
+            </Label>
+            <Label layoutX="79.0" layoutY="210.0" prefHeight="25.0" prefWidth="86.0" text="Directions:">
+               <font>
+                  <Font name="Bernard MT Condensed" size="17.0" />
+               </font>
+            </Label>
+            <Label layoutX="109.0" layoutY="109.0" text="3 cups all purpose flour" />
+            <Label layoutX="108.0" layoutY="123.0" text="1 tsp baking soda" />
+            <Label layoutX="108.0" layoutY="137.0" text="0.5 tsp baking powder" />
+            <Label layoutX="108.0" layoutY="151.0" text="1 cup of butter" />
+            <Label layoutX="109.0" layoutY="165.0" text="1.5 cups of white sugar" />
+            <Label layoutX="109.0" layoutY="179.0" text="1 egg" />
+            <Label layoutX="109.0" layoutY="193.0" text="1 tsp of vanilla extract" />
+            <Label layoutX="110.0" layoutY="235.0" text="1. Preheat oven to 375" />
+            <Label layoutX="109.0" layoutY="249.0" text="2. Stir together four, baking power and baking soda" />
+            <Label layoutX="109.0" layoutY="263.0" text="3. In a seperate boat, cream butter and sugar until smooth. Beat in egg and vannlla" />
+            <Label layoutX="122.0" layoutY="277.0" text="Gradually blend in dry ingredients" />
+            <Label layoutX="108.0" layoutY="291.0" text="4. Roll rounded spoonfuls of dough into balls and place onto ungreased cookie sheet" />
+            <Label layoutX="108.0" layoutY="305.0" text="5. Bake from 8 - 10 minutes or until golden" />
+            <Label layoutX="108.0" layoutY="319.0" text="6. Keep away from grandpa until cool (around 3 mins)" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

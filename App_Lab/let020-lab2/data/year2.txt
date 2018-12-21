@@ -1,0 +1,5 @@
+Harry Potter,Gryffindor
+Susan Bones,Hufflepuff
+Draco Malfoy,Slytherin
+Hermione Granger,Gryffindor
+Ronald Weasley,Gryffindor

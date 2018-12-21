@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="0.0" prefWidth="0.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.controller.MainController">
+   <children>
+      <Pane prefHeight="500.0" prefWidth="600.0">
+         <children>
+            <Label layoutX="41.0" layoutY="77.0" prefHeight="87.0" prefWidth="519.0" text="My Per$onal Budget" textFill="#3b00ff">
+               <font>
+                  <Font name="Gigi" size="58.0" />
+               </font>
+            </Label>
+            <Button alignment="CENTER_RIGHT" layoutX="141.0" layoutY="217.0" mnemonicParsing="false" onAction="#handle" style="-fx-background-color: #8FF442;" text="Budget Overview" textFill="#111111">
+               <font>
+                  <Font name="Century" size="34.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Button alignment="CENTER" layoutX="141.0" layoutY="315.0" mnemonicParsing="false" onAction="#transactionHandle" style="-fx-background-color: #eeff00;" text="     Transaction    ">
+               <font>
+                  <Font name="Century" size="34.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

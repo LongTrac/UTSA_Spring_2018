@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="600.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.controller.WorkoutController">
+   <children>
+      <Label layoutX="111.0" layoutY="49.0" text="My Fitness App" textFill="#ff4949">
+         <font>
+            <Font name="Elephant Italic" size="46.0" />
+         </font>
+      </Label>
+      <Label fx:id="workout" layoutX="118.0" layoutY="111.0" prefHeight="35.0" prefWidth="367.0" textFill="#3905d3">
+         <font>
+            <Font name="Courier New" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="timeLabel" contentDisplay="CENTER" layoutX="118.0" layoutY="468.0" prefHeight="35.0" prefWidth="367.0" textFill="#3905d3">
+         <font>
+            <Font name="Courier New" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="progressLabel" contentDisplay="CENTER" layoutX="119.0" layoutY="523.0" prefHeight="35.0" prefWidth="367.0" textFill="#3905d3">
+         <font>
+            <Font name="Courier New" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="exercise" layoutX="119.0" layoutY="412.0" prefHeight="35.0" prefWidth="367.0" textFill="#3905d3">
+         <font>
+            <Font name="Courier New" size="24.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="imageView" fitHeight="239.0" fitWidth="367.0" layoutX="118.0" layoutY="153.0" pickOnBounds="true" preserveRatio="true" />
+   </children>
+</AnchorPane>
